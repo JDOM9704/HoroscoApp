@@ -8,7 +8,8 @@
     <item
         android:id="@+id/luckFragment"
         android:icon="@drawable/card"
-        android:title="@string/luck"/>
+        android:title="@string/luck"
+        />
 
     <item
         android:id="@+id/palmistryFragment"
