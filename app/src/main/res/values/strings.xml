@@ -7,5 +7,16 @@
     <string name="horoscope">horoscope</string>
     <string name="palmistry">palmistry</string>
 
-
+    <string name="aries">Aries</string>
+    <string name="Pisces">Pisces</string>
+    <string name="Aquarius">Aquarius</string>
+    <string name="Capricorn">Capricorn</string>
+    <string name="Sagittarius">Sagittarius</string>
+    <string name="Scorpio">Scorpio</string>
+    <string name="Libra">Libra</string>
+    <string name="Virgo">Virgo</string>
+    <string name="Leo">Leo</string>
+    <string name="Cancer">Cancer</string>
+    <string name="Gemini">Gemini</string>
+    <string name="Taurus">Taurus</string>
 </resources>
