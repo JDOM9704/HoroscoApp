@@ -4,10 +4,10 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.android.example.horoscapp.R
-import com.android.example.horoscapp.domain.model.HoroscopeInfo
+import com.android.example.horoscapp.domain.model.model.HoroscopeInfo
 
 class HoroscopeAdapter(private var horoscopeList: List<HoroscopeInfo> = emptyList(),
-private val onItemSelected:(HoroscopeInfo) -> Unit):
+                       private val onItemSelected:(HoroscopeInfo) -> Unit):
     RecyclerView.Adapter<HoroscopeViewHolder>() {
 
         fun updateList(list: List<HoroscopeInfo>){

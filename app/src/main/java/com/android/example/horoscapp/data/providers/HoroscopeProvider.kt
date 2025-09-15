@@ -1,8 +1,8 @@
 package com.android.example.horoscapp.data.providers
 
 
-import com.android.example.horoscapp.domain.model.HoroscopeInfo
-import com.android.example.horoscapp.domain.model.HoroscopeInfo.*
+import com.android.example.horoscapp.domain.model.model.HoroscopeInfo
+import com.android.example.horoscapp.domain.model.model.HoroscopeInfo.*
 import javax.inject.Inject
 
 class HoroscopeProvider @Inject constructor() {

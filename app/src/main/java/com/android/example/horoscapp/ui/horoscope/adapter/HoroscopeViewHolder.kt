@@ -4,7 +4,7 @@ import android.view.View
 import android.view.animation.LinearInterpolator
 import androidx.recyclerview.widget.RecyclerView
 import com.android.example.horoscapp.databinding.ItemHoroscopeBinding
-import com.android.example.horoscapp.domain.model.HoroscopeInfo
+import com.android.example.horoscapp.domain.model.model.HoroscopeInfo
 
 class HoroscopeViewHolder(view:View): RecyclerView.ViewHolder(view) {
 
@@ -17,7 +17,7 @@ class HoroscopeViewHolder(view:View): RecyclerView.ViewHolder(view) {
 
         binding.parent.setOnClickListener {
             starRotateAnimation(binding.ivHoroscope,newLambda = {onItemSelected(horoscopeInfo)})
-            onItemSelected(horoscopeInfo) }
+             }
     }
 
     private fun starRotateAnimation(view: View,newLambda: () -> Unit ) {
