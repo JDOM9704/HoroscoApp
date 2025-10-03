@@ -19,4 +19,7 @@
     <string name="Cancer">Cancer</string>
     <string name="Gemini">Gemini</string>
     <string name="Taurus">Taurus</string>
+
+    <!--Luck Fragment -->
+    <string name="share">Share</string>
 </resources>
